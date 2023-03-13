@@ -1,4 +1,4 @@
-from django import serializers
+from rest_framework import serializers
 from posts.models import Post
 
 class PostSerializer(serializers.ModelSerializer):
